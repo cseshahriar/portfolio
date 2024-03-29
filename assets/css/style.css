@@ -98,7 +98,15 @@ img {
 .bg-base {
   background-color: var(--color-base);
 }
-
+.bg-base2 {
+  background-color: var(--color-base2);
+}
+.bg-brand {
+  background-color: var(--color-brand);
+}
+.bg-brand2 {
+  background-color: var(--color-brand2);
+}
 .shadow-effect {
   transition: all 0.5s ease;
 }
@@ -216,4 +224,60 @@ img {
     padding-top: 2rem;
     display: block;
   }
+}
+
+
+/* ===== SKILLS =====*/
+.skills__data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-weight: var(--font-semi);
+  padding: 0.5rem 1rem;
+  margin-bottom: var(--mb-4);
+  border-radius: 0.5rem;
+  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+}
+.skills__icon {
+  font-size: 2rem;
+  margin-right: var(--mb-2);
+  color: var(--first-color);
+}
+.skills__names {
+  display: flex;
+  align-items: center;
+}
+.skills__bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: var(--color-brand);
+  height: 0.25rem;
+  border-radius: 0.5rem;
+  z-index: var(--z-back);
+}
+.skills__html {
+  width: 95%;
+}
+.skills__css {
+  width: 85%;
+}
+.skills__js {
+  width: 65%;
+}
+.skills__react {
+  width: 60%;
+}
+.skills__python {
+  width: 70%;
+}
+.skills__django {
+  width: 80%;
+}
+.skills__drf {
+  width: 70%;
+}
+.skills__img {
+  border-radius: 0.5rem;
 }
